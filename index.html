@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>𝘾𝙪𝙧𝙧𝙚𝙣𝙘𝙮 𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙤𝙧</title>
+    <meta name="theme-color" content="#3498db" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="/inr.webp" />
+    <title>𝘾𝙐𝙍𝙍𝙀𝙉𝘾𝙔 𝙀𝙓𝘾𝙃𝘼𝙉𝙂𝙀</title>
 
      <link rel="stylesheet" href="style1.css" />
 
@@ -50,23 +53,38 @@
       </form>
     </div>
 
-    <hr />
 
        <div class="sm" >
+      <div class="socials">
         <a href="https://twitter.com/Anand786akm" class="twitter"><i class="fa-brands fa-twitter"></i></a>
   
         <a href="https://www.instagram.com/akm_16.10/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://www.linkedin.com/in/anand-kr-maurya-akm16?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/anand123AKM" class="github"><i class="fa-brands fa-github"></i></a>
+        </div>
       </div>
 
     </div>
-      <h4 class="footer">Developed by ©AKM</h4>
+      <h4 class="footer">©2023. AKM</h4>
     </div>
 
 
     <script src="codes.js"></script>
     <script src="app.js"></script>
+    <script>
+        // Register the service worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    })
+                    .catch(error => {
+                        console.log('ServiceWorker registration failed: ', error);
+                    });
+            });
+        }
+    </script>
 
   </body>
 </html>

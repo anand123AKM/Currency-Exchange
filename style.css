@@ -188,12 +188,29 @@
 }
 
 .footer {
-  margin: 10px;
+  margin: 7px;
+  font-size: 12px;
+ color: #7eaad6;
 }
 
 .sm {
-  color: white;
   margin-top: 10px;
+  border-top: 1px solid #3978b8;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.socials a i{
+    color: #7eaad6;
+  font-weight: bolder;
+  font-size: 12px;
+}
+.socials{
+  margin-top: 10px;
+}
+
+.sm a i:hover {
+  color: rgb(196, 196, 196);
 }
 
 .twitter {

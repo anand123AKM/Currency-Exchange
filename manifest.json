@@ -1,0 +1,51 @@
+{
+  "name": "Currency Converter",
+  "short_name": "Currency",
+  "description": "A simple currency converter application",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "/inr.webp",
+      "sizes": "72x72",
+      "type": "image/webp"
+    },
+    {
+  "src": "/inr.webp",
+      "sizes": "96x96",
+      "type": "image/webp"
+    },
+    {
+    "src": "/inr.webp",
+      "sizes": "128x128",
+      "type": "image/webp"
+    },
+    {
+      "src": "/inr.webp",
+      "sizes": "144x144",
+      "type": "image/webp"
+    },
+    {
+      "src": "/inr.webp",
+      "sizes": "152x152",
+      "type": "image/webp"
+    },
+    {
+     "src": "/inr.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/inr.webp",
+      "sizes": "384x384",
+      "type": "image/webp"
+    },
+    {
+     "src": "/inr.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}
